@@ -3,8 +3,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Hanna\'s의 개발 지식 창고',
+  tagline: '#Front-end &nbsp #Sementic markup   #UI',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -51,15 +51,7 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://stackoverflow.com/',
             },
           ],
         },

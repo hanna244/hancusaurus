@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '너무 쉬워요! ',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -38,12 +38,13 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
+      {/* 이미지 설정 가능 */}
+      {/* <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
-      </div>
+      </div> */}
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+        {/* <h3>{title}</h3>
+        <p>{description}</p> */}
       </div>
     </div>
   );
