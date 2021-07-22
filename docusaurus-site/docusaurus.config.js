@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Hanna\'s의 개발 지식 창고',
-  tagline: '#Front-end &nbsp #Sementic markup   #UI',
+  tagline: '#Front-end #Sementic markup #UI',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',

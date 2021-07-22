@@ -2,34 +2,13 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 오늘 배운 것 오늘 기록하자
 
-Let's discover **Docusaurus in less than 5 minutes**.
+2020년 8월부터 개발 공부 시작, 2021년 6월 취업을 했다. 여전히 배운 것이 산더미이고 궁금한 것이 너무나도 많다.<br />
+개발 공부를 시작하고 내가 여기까지 올 수 있었던 건 바로 **"기록"**이었다. <br />
+markdown, gitbook에 배운 것을 기록하면서, 다시 보면서 공부를 했다. 그러다 보니 이 자리까지 올 수 있었다. 
 
-## Getting Started
+회사에 들어가고 적응이라는 핑계로 한 달여 동안 FE 공부와 기록에 소홀했다. (변명하자면 계속 공부는 했다. UI 개발 공부) <br />
+이제부터 다시 알고리즘, 개인 사이드 프로젝트를 시작해야 한다. <br />
+그러니 다시 힘내서 **기록**해보자. 공부와 내 생각과 여러 모든 것들을…
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
