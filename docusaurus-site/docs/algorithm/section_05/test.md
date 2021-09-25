@@ -7,12 +7,6 @@ sidebar_position: 200
 ## 문제 
 
 
-## 로직
-
-```js
-
-```
-
 
 
 
