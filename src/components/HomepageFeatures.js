@@ -1,5 +1,6 @@
 import React from 'react'
 import clsx from 'clsx'
+import Link from '@docusaurus/Link'
 import styles from './HomepageFeatures.module.css'
 
 const FeatureList = [
@@ -68,9 +69,12 @@ const FeatureList = [
 function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
+      {/* <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
-      </div>
+      </div> */}
+      <Link className={styles.featureLink} to="/docs/intro">
+        <Svg className={styles.featureSvg} alt={title} />
+      </Link>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
